@@ -18,9 +18,12 @@
             // let result = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
             // let element = result.singleNodeValue;
 
+            console.log('Keypress detected');
+
             var element = document.querySelector('#cqFindRecordString');
 
             if (element) {
+                console.log('Element found');
                 element.focus();
                 element.click();
             } else {
