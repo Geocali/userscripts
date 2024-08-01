@@ -14,9 +14,6 @@
 
     document.addEventListener('keydown', function(event) {
         if (event.ctrlKey && event.shiftKey && event.key === 'F') {
-            // let xpath = '/html/body/div[1]/div/div[4]/div/div[3]/div/div[1]/form/div/div/div/input';
-            // let result = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
-            // let element = result.singleNodeValue;
 
             console.log('Keypress detected');
 
